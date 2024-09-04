@@ -1,0 +1,58 @@
+{
+  "zones": [
+    {
+      "id": "zone-a",
+      "name": "Zone A",
+      "tables": [
+        {
+          "id": "table-1",
+          "number": "Table 0",
+          "equipments": [
+            {
+              "id": "equip-1",
+              "type": "Desktop",
+              "hostname": "PC-0001",
+              "ip_address": "192.168.1.10"
+            },
+            {
+              "id": "equip-2",
+              "type": "Printer",
+              "hostname": "Printer-001",
+              "ip_address": "192.168.1.11"
+            }
+          ]
+        },
+        {
+          "id": "table-2",
+          "number": "Table 2",
+          "equipments": [
+            {
+              "id": "equip-3",
+              "type": "Laptop",
+              "hostname": "Laptop-001",
+              "ip_address": "192.168.1.12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zone-b",
+      "name": "Zone B",
+      "tables": [
+        {
+          "id": "table-19",
+          "number": "Table 19",
+          "equipments": [
+            {
+              "id": "equip-4",
+              "type": "Desktop",
+              "hostname": "PC-002",
+              "ip_address": "192.168.1.13"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
