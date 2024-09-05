@@ -1,0 +1,9 @@
+.area {
+    position: relative;
+    display: grid;
+    background-color: aqua;
+    border: 1px dotted gray;
+    row-gap: 1%;
+    column-gap: 10%;
+
+}

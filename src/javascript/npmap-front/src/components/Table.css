@@ -1,0 +1,39 @@
+.table {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid brown;
+    align-items: left;
+    justify-content: space-evenly;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+.table-number {
+    align-self: flex-start;
+    opacity: 0.5;
+    
+}
+
+.table-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: fit-content;
+    height: fit-content;
+    padding: 3% 3%;
+    gap:3%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 2%;
+    background-color: azure;
+}
